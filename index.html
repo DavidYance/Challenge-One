@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Courier+Prime&family=Fredoka:wght@300..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kode+Mono:wght@400..700&family=Protest+Riot&family=Roboto&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <section class="contenedor">
+            <textarea name="textoAqui" id="caja1" placeholder="Ingrese el texto aqui"></textarea>
+            <textarea name="encriptador" id="caja2" readonly placeholder="Ningún mensaje fue encontrado"></textarea>
+        </section>
+
+        <section class="botonAdvertencia">
+            <p>Solo letras minúsculas y sin acentos</p>
+            <button class="Encriptar" onclick="btnEncriptar()">Encriptar</button>
+            <button class="Desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            <button class="Copiar" onclick="btnCopiar()">Copiar</button>
+        </section>
+    </main>
+
+    <footer>
+        <section class="copy">
+            <a href="https://www.linkedin.com/in/david-yance-eis/" target="_blank"><img src="img/pelado-pie.jpeg"
+                    alt="Logo David"></a></img>
+            <p>&copy; Realizado por David Yance | 2024</p>
+        </section>
+        <section class="alura">
+            <a href="https://www.aluracursos.com" target="_blank"><img src="img/LogoAlura.png" alt="Alura"></a></img>
+        </section>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
